@@ -4,7 +4,7 @@
  */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
-  color: #b84b4b; }
+  color: #f4f4f4; }
 
 a, p, li {
   font-family: "Lato", Arial, sans-serif;
@@ -79,7 +79,7 @@ body {
   100% {
     opacity: 1; } }
 .main-nav {
-  background: #af5252;
+  background: #9e9a9a;
   padding-top: 23px; }
   .main-nav nav ul li a {
     color: #030303; }
