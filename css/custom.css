@@ -140,7 +140,8 @@ body {
     color: #8c8c8c; }
 
 .skills .skill-list {
-  margin-left: 0px; }
+  margin-left: 0px;
+  margin-bottom: 4px; }
   .skills .skill-list li:first-child {
     font-size: 0.9375em;
     color: #f4f4f4; }
@@ -155,33 +156,149 @@ body {
     border: 5px solid #fff;
     color: #fff; }
 
-progress {
-  text-align: center;
-  display: inline-block;
-}
-progress:after {
-  content: attr(value)'%';
-  display: inline-block;
-}
-
-
-
-#progressbar {
-  background-color: black;
-  border-radius: 13px;
+#progressbarkubernetes {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
   /* (height of inner div) / 2 + padding */
-  padding: 3px;
+  padding: 1px;
+}
+#progressbardocker {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbarterraform {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbarghactions {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbarargo {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbargcp {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbarazure {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbaraws {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+  
+}
+#progressbarlogging {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
+}
+#progressbardatabases {
+  background-color: #3d3a3a;
+  border-radius: 1px;
+  max-width: 70%;
+  /* (height of inner div) / 2 + padding */
+  padding: 1px;
 }
 
-#progressbar>div {
-  background-color: orange;
+
+#progressbarkubernetes>div {
+  background-color: #b63737;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 4px;
+  border-radius: 1px;
+}
+#progressbardocker>div {
+  background-color: #b63737;
+  width: 80%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbarterraform>div {
+  background-color: #b63737;
+  width: 70%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbarghactions>div {
+  background-color: #b63737;
+  width: 90%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbarargo>div {
+  background-color: #b63737;
+  width: 50%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbargcp>div {
+  background-color: #b63737;
+  width: 70%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbarazure>div {
+  background-color: #b63737;
+  width: 80%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbaraws>div {
+  background-color: #b63737;
+  width: 30%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbarlogging>div {
+  background-color: #b63737;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 1px;
+}
+#progressbardatabases>div {
+  background-color: #b63737;
   width: 40%;
   /* Adjust with JavaScript */
-  height: 20px;
-  border-radius: 10px;
+  height: 5px;
+  border-radius: 1px;
 }
-
-
 
 
 footer {
